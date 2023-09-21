@@ -2,6 +2,7 @@
 body {
     font-family: 'Lato', sans-serif;
 }
+
 /* header styles */
 header {
     background-color: rgba(229, 84, 115, 0.10);
@@ -83,6 +84,7 @@ header {
     flex-direction: column;
     align-items: center;
 }
+
 /* delivery icon style */
 .delivery-icon {
     width: 1035px;
@@ -170,6 +172,7 @@ header {
 
 
 }
+
 /* latest deal styles */
 
 .latest-deals h4 {
@@ -183,23 +186,26 @@ header {
     font-size: 18px;
     font-weight: 400;
 }
-.latest-deals input[type="button"]{
+
+.latest-deals input[type="button"] {
     width: 130px;
-height: 49px;
-border-radius: 8px;
-background: #E55473;
-color: #FFF;
-font-size: 15px;
-font-weight: 700;
-}
-.latest-deals input[type="email"]{
+    height: 49px;
     border-radius: 8px;
-background: #FFF;
-width: 500px;
-height: 44px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 700;
 }
- /* footer style added */
-footer{
+
+.latest-deals input[type="email"] {
+    border-radius: 8px;
+    background: #FFF;
+    width: 500px;
+    height: 44px;
+}
+
+/* footer style added */
+footer {
     margin: 40px 0px 0px 20px;
     display: flex;
     flex-direction: column;
@@ -207,18 +213,21 @@ footer{
     align-items: center;
     background-color: #111010;
 }
-footer h4{
+
+footer h4 {
     color: #E55473;
-font-size: 48px;
-font-weight: 800;
+    font-size: 48px;
+    font-weight: 800;
 }
-footer h4>span{
+
+footer h4>span {
     color: #FFF;
 }
-footer p{
+
+footer p {
     color: rgba(255, 255, 255, 0.90);
     text-align: center;
-font-size: 18px;
-font-weight: 400;
-width: 625px;
+    font-size: 18px;
+    font-weight: 400;
+    width: 625px;
 }
