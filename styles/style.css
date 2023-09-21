@@ -205,6 +205,39 @@ header {
     height: 44px;
 }
 
+/* FAQ section styles */
+.faq>h2 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(253, 253, 253);
+}
+
+.faq {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(250, 233, 242);
+    margin: 30px auto 10px auto;
+    width: 1030px;
+
+}
+
+#faq1>p {
+    background-color: rgb(224, 194, 194);
+    padding: 20px;
+    margin: 10px;
+    color: #FFF;
+
+}
+
+#faq2>p {
+    background-color: rgb(222, 220, 220);
+    padding: 20px;
+    margin: 10px;
+}
+
 /* footer style added */
 footer {
     margin: 40px 0px 0px 20px;
