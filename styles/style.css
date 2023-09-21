@@ -83,7 +83,7 @@ header {
     flex-direction: column;
     align-items: center;
 }
-
+/* delivery icon style */
 .delivery-icon {
     width: 1035px;
     height: 200px;
